@@ -48,33 +48,35 @@ header nav ul{
         flex-wrap: wrap;
     }
     
+/*Sentrerer teksten og lat il padding*/
     .default-flex article {
         flex: 1;
         text-align: center;
         padding: 10px;
     }
     
-    
+ /*Setter bildene i ved siden av hverandre i columns*/   
 .image-text-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Endrer størrelse og høyde på bildene */
 .image-text-container img{
     width: 100%;
     height: auto;
 }
 
+/*Endrer h2 tesktene, hvor mye rom ifra bildene til h2 teksten*/
 .image-text-container h2{
     margin: 10px 0;
 }
-
+    /* Maks størellse på bildene*/
     .default-flex img {
         max-width: 100%;
     }
-    
-/**/
+/* Til hit brukte jeg chatgpt*/
     
 
 main section img{
